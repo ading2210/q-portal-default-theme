@@ -1,0 +1,638 @@
+/* DEFAULT styling for jQuery Datepicker v4.1.0. */
+.datepick {
+	background-color: #fff;
+	color: #000;
+	border: 1px solid #444;
+}
+.datepick-disable {
+	background-color: white;
+}
+.datepick a {
+	color: #fff;
+}
+.datepick a.datepick-disabled {
+	color: #888;
+}
+.datepick button {
+    background-color: #fcc;
+}
+.datepick-nav, .datepick-ctrl {
+	background-color: #BDD2BD; /*.lightHighlight*/
+	color: #fff;
+}
+.datepick-ctrl {
+    background-color: #354F35; /*.darkHilight*/
+}
+.datepick-cmd:hover {
+	background-color: #BDD2BD; /*.lightHighlight*/
+}
+.datepick-ctrl .datepick-cmd:hover {
+	background-color: #354F35; /*.darkHilight*/
+}
+.datepick-month-nav {
+	background-color: #BDD2BD; /*.lightHighlight*/
+}
+.datepick-month-nav span {
+	color: #FFF;    /*White*/
+}
+.datepick-month {
+	border: 1px solid #444;
+}
+.datepick-month-header, .datepick-month-header select, .datepick-month-header input {
+	background-color: #93B793; /*.mediumHighlight*/
+	color: #fff;
+}
+.datepick-month thead {
+	border-bottom: 1px solid #aaa;
+}
+.datepick-month th {
+	border: 1px solid #354F35; /*.darkHilight*/
+}
+.datepick-month th, .datepick-month th a {
+	background-color: #354F35; /*.darkHilight*/
+	color: #fff;
+}
+.datepick-month td {
+	background-color: #ECE9D8; /*.lightNeutral*/
+	border: 1px solid #aaa;
+}
+.datepick-month td.datepick-week {
+	border: 1px solid #354F35; /*.darkHilight*/
+}
+.datepick-month td.datepick-week * {
+	background-color: #354F35; /*.darkHilight*/
+	color: #fff;
+}
+.datepick-month a {
+	background-color: #eee;
+	color: #000;
+}
+.datepick-month td span {
+	color: #888;
+}
+.datepick-month td .datepick-other-month {
+	background-color: #fff;
+}
+.datepick-month td .datepick-weekend {
+	background-color: #BDD2BD; /*.lightHighlight*/
+}
+.datepick-month td .datepick-today {
+	background-color: #f0c0c0;
+}
+.datepick-month td .datepick-highlight
+{
+    background-color: #FFFFB0; /*custom*/
+}
+.datepick-month td .datepick-selected
+{
+    background-color: #FFFF66; /*.custom*/
+    color: #000000;
+}
+.datepick-month th.datepick-week {
+	background-color: #354F35; /*.darkHilight*/
+	color: #fff;
+}
+.datepick-status {
+	background-color: #D7D0AC; /*.mediumNeutral*/
+}
+
+/*--------------------*/
+/* Student Banner CSS */
+/*--------------------*/
+/* THEMES STYLE SHEET */
+/* DEFINE COLORS ONLY IN THIS STYLE SHEET */
+
+.Banner 
+{
+    background-color: #ece9d8;
+	border-color: #fefefe #000000 #BDD2BD #000000;
+}
+.bannerlabeltext {
+    color: black;
+}
+.bannertbl td {
+	background-color: #ffffff;
+	color: black;
+	border-color: #BDD2BD;
+}
+.bannertbl .td2 {
+	background-color: #ece9d8;
+	color: black;
+	border-color: #BDD2BD;
+}
+.bannertbl th {
+	background-color: #d7d0ac;
+	color: black;
+	border-color: #BDD2BD;
+}
+
+.bannertbl tr.even td {
+    background-color: #FFFFFF;    
+}
+
+.bannertbl tr.odd td {
+    background-color: #ECE9D8;
+}
+
+.bannertbl tr.sturow:hover td {
+    background-color: #BDD2BD;    
+}
+
+.bannertbl tr.sturow:focus td {
+    background-color: #BDD2BD;    
+}
+
+.bannertbl .closeButtonRow {
+	background-color: #ECE9D8;
+}
+
+/* CSS for Search Dropdown panel */
+.searchtable {
+	background-color: white;
+	color: black;
+}
+.searchtable thead tr {
+	background-color: #93B793;
+	color: #FFFFFF;
+}
+.searchtable a {
+    color: blue;
+}
+.searchtable a:hover {
+    color: blue;
+}
+
+/* For the Banner Panels */
+.BannerPanel
+{
+    border-color: #BDD2BD;
+    color: #000000;
+    background-color: #d7d0ac;
+}
+
+/*AppContent*/
+/*Theme: Default*/
+.leftTable, .topTable {
+    background-color: #ffffff;
+    border-color: #AE9F79;
+}
+.rightDetails, .bottomDetails {
+    background-color: #ffffff;
+    border-color: #AE9F79;
+}
+#splitter, #hsplitter {
+    border-left-color: #AE9F79;
+    border-right-color: #AE9F79;
+    border-top-color: #AE9F79;
+    border-bottom-color: #AE9F79;
+}
+.splitterLeftPanel, .splitterTopPanel {
+    background-color: #FFFFFF;
+    border-top-color: #AE9F79;
+    border-bottom-color: #AE9F79;
+    border-left-color: #AE9F79;
+    border-right-color: #AE9F79;
+}
+.splitterRightPanel, .splitterBottomPanel {
+    background-color: #FFFFFF;
+    border-top-color: #AE9F79;
+    border-bottom-color: #AE9F79;
+    border-left-color: #AE9F79;
+    border-right-color: #AE9F79;
+}
+.splitterTopBorder {
+	background-color: #ECE9D8;
+	border-top-color: #fefefe;
+	border-bottom-color: #BDD2BD;
+}
+.vsplitbar {
+    background-color: #ece9d8;
+    border-left-color: #AE9F79;
+    border-right-color: #AE9F79;
+}
+.hsplitbar {
+    background-color: #ece9d8;
+    border-top-color: #AE9F79;
+    border-bottom-color: #AE9F79;
+}
+.vsplitbar.active, .vsplitbar:hover, .hsplitbar.active, .hsplitbar:hover {
+    background-color: #93B793;
+}
+.appBody {
+    background-color: #ece9d8;
+}
+.appTableHeader {
+    background-color: #d7d0ac;
+}
+.appButtonBar {
+	background-color: #ECE9D8;
+	border-top-color: #fefefe;
+	border-bottom-color: #BDD2BD;
+}
+.appMenuBar {
+	background-color: #ECE9D8;
+	border-top-color: #fefefe;
+	border-bottom-color: #BDD2BD;
+}
+.appEditArea 
+{
+	background-color: #FFFFFF;
+	border-top-color: #BDD2BD;
+	border-right-color: #BDD2BD;
+	border-bottom-color: #BDD2BD;
+	border-left-color: #BDD2BD;
+}
+
+.appValidationError
+{
+	background-color:#ffeeee; 
+	color:#ff0000;
+}
+.validationSummary
+{
+	background-color:#ffeeee; 
+	color:#ff0000;
+}
+.DnDrowDragClass
+{
+    background-color:#BDD2BD;
+}
+/*
+------------------------------------------------
+Background Colors
+------------------------------------------------
+*/
+
+.darkHighlight
+{
+    background-color: #354F35;
+    color: #ffffff;
+}
+.mediumHighlight
+{
+    background-color: #93B793;
+    color: #ffffff;
+}
+.lightHighlight
+{
+    background-color: #BDD2BD;
+}
+.darkNeutral
+{
+    background-color: #AE9F79;
+    color: #ffffff;
+}
+.mediumNeutral
+{
+    background-color: #D7D0AC;
+}
+.lightNeutral
+{
+    background-color: #ECE9D8;
+}
+.panelNeutral
+{
+    background-color: #F8F7F1;
+}
+
+/*
+------------------------------------------------
+Border Colors
+------------------------------------------------
+*/
+
+.darkHighlightBorder
+{
+    border-color: #354F35;
+}
+.mediumHighlightBorder
+{
+    border-color: #93B793;
+}
+.lightHighlightBorder
+{
+    border-color: #BDD2BD;
+}
+.darkNeutralBorder
+{
+    border-color: #AE9F79;
+}
+.mediumNeutralBorder
+{
+    border-color: #D7D0AC;
+}
+.lightNeutralBorder
+{
+    border-color: #ECE9D8;
+}
+
+/*
+------------------------------------------------
+Font Foreground Colors
+------------------------------------------------
+*/
+
+.darkHighlightColor
+{
+    color: #354F35;
+}
+.mediumHighlightColor
+{
+    color: #93B793;
+}
+.lightHighlightColor
+{
+    color: #BDD2BD;
+}
+.darkNeutralColor
+{
+    color: #AE9F79;
+}
+.mediumNeutralColor
+{
+    color: #D7D0AC;
+}
+.lightNeutralColor
+{
+    color: #ECE9D8;
+}
+
+
+/*
+------------------------------------------------
+App Column Menu (Vertical)
+------------------------------------------------
+*/
+
+.appColumnMenu {float:left;
+                width:150px;
+                height:100%;
+                background-color:#D7D0AC;}  /* mediumNeutral*/
+
+.ColumnMenu {
+	width: 150px;
+	margin-top: 0px; /*10px*/
+	border-style: none none none none;
+	border-color: #D8D5D1;
+	border-width: 1px;
+	}
+    
+.ColumnMenu ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+    }
+    	
+.ColumnMenu li a {
+	height: 32px;
+  	voice-family: "\"}\""; 
+  	voice-family: inherit;
+  	height: 24px;
+	text-decoration: none;
+	font-weight: bold;
+	font-size: 0.9em;
+	}	
+    	
+.ColumnMenu li a:link, .ColumnMenu li a:visited {
+	color: #FFFFFF;
+	display: block;
+	/*background:  url(../../../../Images/menu2.gif);*/
+	border-right: solid 1px #354F35;                        /* darkHighlight*/
+	border-bottom: solid 1px #354F35;                       /* darkHighlight*/
+	border-left: solid 1px #BDD2BD;                         /* lightHighlight*/
+	border-top: solid 1px #BDD2BD;                          /* lightHighlight*/
+	background-color: #93B793;                              /* mediumHighlight*/
+	padding: 8px 0 0 5px;
+	}
+    	
+.ColumnMenu li a:hover {
+	color: #000000;
+	/*background:  url(../../../../Images/menu2.gif) 0 -32px;*/
+	background-color: #BDD2BD;                              /* lightHighlight*/
+	border-right: solid 1px #354F35;                        /* darkHighlight*/
+	border-bottom: solid 1px #354F35;                       /* darkHighlight*/
+	padding: 8px 0 0 5px;
+	}
+
+.ColumnMenu li a:focus {
+    outline: none;
+}
+
+.ColumnMenu li.selected a {
+	color: #000000;
+	/*background:  url(../../../../Images/menu2.gif) 0 -32px;*/
+	background-color: #D7D0AC;                              /* mediumNeutral*/
+	border-top: solid 1px #D7D0AC;                          /* mediumNeutral*/
+	border-right: solid 1px #D7D0AC;                        /* mediumNeutral*/
+	padding: 8px 10px 0 0;
+	text-align: right;
+	}
+
+.ColumnMenu li.selected a.last {
+    border-bottom: solid 1px #D7D0AC; 
+	}
+
+/*
+------------------------------------------------
+Table Sorter 
+------------------------------------------------
+*/
+
+.header:hover {
+	background-color: #ECE9D8;
+	cursor:pointer;
+}
+/*
+th.headerSortUp {
+	background-color: #BDD2BD;
+}
+th.headerSortDown {
+	background-color: #BDD2BD;
+}
+*/
+
+/*-----------------*/
+/* Main Master CSS */
+/*-----------------*/
+/* THEMES STYLE SHEET */
+/* DEFINE COLORS ONLY IN THIS STYLE SHEET */
+
+.titlebar
+{
+    background-color: #ece9d8;
+    border-color: #CCCCCC #BDD2BD #BDD2BD #CCCCCC;
+}
+.footer
+{
+    background-color: #ece9d8;
+    border-top-color: #ece9d8;
+}
+.scrollFooter
+{
+    background-color: #ece9d8;
+    border-top-color: #AE9F79;
+}
+.mainPage
+{
+    background-color: #FFFFFF;
+    border-bottom-color: #AE9F79;
+}
+
+/*----------*/
+/* Site CSS */
+/*----------*/
+/* THEMES STYLE SHEET */
+/* DEFINE COLORS ONLY IN THIS STYLE SHEET */
+
+body {
+    color: #000000;
+    background-color: #FFFFFF;
+}
+a:link, a:hover, a:active, a:visited {
+    color: #000000;
+}
+.field-validation-error {
+    color: #ff0000;
+}
+.input-validation-error {
+    border-color: #ff0000;
+    background-color: #ffeeee;
+}
+.validation-summary-errors {
+    color: #ff0000;
+}
+.btn {
+	color: #000000;
+}
+.copyright {
+	color: #666666;
+}
+.error {
+    color:Red;
+}
+.aefieldset
+{
+    background-color: #BDD2BD;
+    border-color: black;
+}
+.hdr
+{
+    background-color: #93B793;
+    color: #ffffff;
+}
+.aelegend {
+	background-color: #d7d0ac;
+	border-color: black;
+}
+.listtbl {
+	border-color: #BDD2BD;
+}
+.listtbl th {
+	background-color: #d7d0ac;
+}
+.listtbl tr.odd td {
+	background-color:#ffffff;
+}
+.listtbl tr.even td {
+	background-color:#ece9d8;
+}
+.listtbl tr:hover td {
+	background-color:#d7d0ac;
+}
+.listtbl tr.selected td {
+    background-color:#bdd2bd;
+}
+.displaytbl {
+	border-color: #354F35;
+}
+.displaytbl th {
+	background-color: #BDD2BD;
+}
+.stdtbl {
+	border-color: #000000;
+}
+.stdtbl th {
+	border-color: #000000;
+	background-color: #D7D0AC;
+}
+.stdtbl td {
+	border-color: #000000;
+}
+.stdtbl tr:hover td {
+	background-color:#d7d0ac;
+}
+.stdtbl tr.selected td {
+    background-color:#bdd2bd;
+}
+.schedtbl {
+	background-color: #ffffff;
+	border-color: #000000;
+}
+.schedtbl .colhdr {
+	border-color: #000000;
+	background-color: #ece9d8;
+}
+.schedtbl th {
+	border-color: #000000;
+	background-color: #D7D0AC;
+}
+.schedtbl td {
+	border-color: #000000;
+}
+.bigmsg {
+    color:Gray;
+}
+.smallmsg {
+    color:Gray;
+}
+.altRowBackground {
+	background-color:#ece9d8;
+}
+.altRow {
+	background-color:#ece9d8;
+}
+tr.over td{
+    background-color: #D7D0AC;
+}
+tr.selected td {
+    background-color: #BDD2BD;
+}
+.selected {
+    background-color: #BDD2BD;
+}
+.txtin {
+	color: #000000;
+	border-color: #999999;
+}
+.txtin2 {
+	color: #000000;
+	border-color: #999999;
+}
+.txtin3 {
+	color: #000000;
+}
+.viewport {
+    border: solid 1px #000000;
+    background-color: #ece9d8;
+}
+.appblank {
+	color: #93b793;
+}
+.banner {
+	background-color:#ece9d8;
+}
+
+.errtbl {
+	background-color: #ece9d8;
+	border-color: #999966;
+}
+#logo {
+	background-image: url(../../../images/logopage.jpg);
+	background-repeat: no-repeat;
+	background-position:center center;
+	height: 250px;
+	width: 250px;
+	text-align: center;
+	margin-right: auto;
+	margin-left: auto;
+}
